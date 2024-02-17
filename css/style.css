@@ -1,0 +1,175 @@
+/*----
+Google Fonts
+-------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    border-bottom: 1px solid black;
+}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.logo {
+    max-width: 10%;
+    flex-basis: 10%;
+}
+
+.logo img {
+    width: 70px;
+}
+
+.navigation {
+    max-width: 90%;
+    flex-basis: 90%;
+}
+
+.menu {
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu li a {
+    color: black;
+    text-decoration: none;
+    font-size: 22px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.banner-section {
+    background-image: url(../image/watches.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-blend-mode: difference;
+
+}
+
+.banner-section h1 {
+    font-size: 60px;
+    color: #fff;
+    margin-top: 100px;
+}
+
+.banner-section p {
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+
+}
+
+.banner-section .container {
+    min-height: 850px;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 650px;
+}
+
+.buynow-button {
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(21, 96, 235);
+    color: #fff;
+}
+
+.buynow-button:hover {
+    background-color: tomato;
+}
+
+.products-section .brands-section {
+    padding: 50px 0px;
+}
+
+.col-2-1 {
+    flex-basis: 50%;
+    max-width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 35px;
+
+}
+
+p {
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.image-size {
+    height: 650px;
+    border-radius: 15px;
+    box-shadow: 8px 8px 25px #02020240;
+}
+
+.col-3-1 {
+    flex-basis: 33.3%;
+    max-width: 33.3%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.brands img {
+    border-radius: 15px;
+    box-shadow: 8px 8px 15px #02020240;
+}
+
+.brands h4 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.about-section p {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.contact-section {
+    text-align: center;
+    margin-left: 35%;
+}
+
+footer {
+    height: 150px;
+    background-color: black;
+}
+
+footer h2 {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.footer-para {
+    color: #fff;
+    text-align: center;
+}
